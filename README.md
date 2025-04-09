@@ -118,6 +118,14 @@ ros2 topic echo /asterics_commands
 
 ---
 
+📖 **Citation**
+
+If you use this work, please cite:
+
+> Rodríguez Lera, F. J., Fernández Hernández, R., Lopez González, S., González-Santamarta, M. A., Rodríguez Sedano, F. J., & Fernandez Llamas, C. (2025). *Accessible and Pedagogically-Grounded Explainability for Human-Robot Interaction: A Framework Based on UDL and Symbolic Interfaces*. arXiv:2504.06189. https://arxiv.org/abs/2504.06189
+
+---
+
 ## 🤝 Acknowledgments
 
 Developed as part of research on **accessible explainability** and **Universal Design for Learning** in HRI. Integrates:
