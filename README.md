@@ -4,6 +4,22 @@ This repository provides a simple HTTP-to-ROS 2 bridge that enables **accessible
 
 ---
 
+## 📚 Table of Contents
+
+- [🧠 Purpose](#-purpose)
+- [🚀 How It Works](#-how-it-works)
+- [🔧 Setup Instructions](#-setup-instructions)
+- [📤 Example Payload from Asterics Grid](#-example-payload-from-asterics-grid)
+- [📡 ROS 2 Topic](#-ros-2-topic)
+- [🧩 Use Case Example](#-use-case-example)
+- [🧱 Files](#-files)
+- [📜 License](#-license)
+- [📖 Citation](#-citation)
+- [🤝 Acknowledgments](#-acknowledgments)
+- [🤝 Project Acknowledgments](#-project-acknowledgments)
+
+---
+
 ## 🧠 Purpose
 
 The goal of this bridge is to facilitate **inclusive human–robot interaction (HRI)** by enabling users to send symbolic commands or explanation requests to a robot through a pictogram-based interface (e.g. ARASAAC boards). The system is designed with **Universal Design for Learning (UDL)** in mind.
