@@ -128,9 +128,16 @@ ros2 topic echo /asterics_commands
 
 ## 📜 License
 
-- This project is licensed under the  Apache-2.0 License.
-- [AsTeRICS-Grid](https://github.com/fjrodl/AsTeRICS-Grid) under  AGPL-3.0 license 
-- Pictograms provided by [ARASAAC](https://arasaac.org) under CC BY-NC-SA.
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
+
+This repository (`astericsgrid_ros`) is distributed under the **Apache License 2.0**.  
+It is an **independent bridge** that connects [AsTeRICS-Grid](https://github.com/asterics/AsTeRICS-Grid) with [ROS 2](https://www.ros.org) via HTTP requests.
+
+### ⚖️ Legal Note
+- No source code from AsTeRICS-Grid is included or modified in this repository.  
+- This bridge only **communicates externally** with AsTeRICS-Grid through HTTP and does **not constitute a derivative work** under the AGPL v3 license.  
+- Users must comply with the AGPL v3 terms **only** when running or modifying AsTeRICS-Grid itself.
+
 
 ---
 
