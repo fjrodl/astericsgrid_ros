@@ -94,13 +94,22 @@ def main():
     rclpy.init()
 
     bridge_node = Ros2AstericsBridge()
+    
+    # Declare parameters
+    bridge_node.declare_parameter('flask_host', '0.0.0.0')
+    bridge_node.declare_parameter('flask_port', 5000)
+    
+    flask_host = bridge_node.get_parameter('flask_host').get_parameter_value().string_value
+    flask_port = bridge_node.get_parameter('flask_port').get_parameter_value().integer_value
 
     # Create API Flask
     app = create_flask_app(bridge_node)
 
+    bridge_node.get_logger().info(f'Starting Flask server on {flask_host}:{flask_port}')
+
     # Runinng Flask in a separate thread avoiding blocking roos2 spinning 
     flask_thread = threading.Thread(
-        target=lambda: app.run(host="0.0.0.0", port=5000),
+        target=lambda: app.run(host=flask_host, port=flask_port),
         daemon=True
     )
     flask_thread.start()
